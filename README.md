@@ -138,7 +138,7 @@ nombre NUEVO.TXT dentro de la carpeta BASIC
 
 `copy NUEVO.txt \..\APLI\WORD\NOTAS`
 
-11. ¿Cuántos archivos hay en la carpeta BASIC? ¿Y en NOTAS?
+10. ¿Cuántos archivos hay en la carpeta BASIC? ¿Y en NOTAS?
 
 *En BASIC esta EJER.txt y NUEVO.txt. En NOTAS esta la copa de NUEVO.txt*
 
