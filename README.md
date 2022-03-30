@@ -226,13 +226,18 @@ observación astronómica constituye uno de los hitos de la astronomía.”*
 
 1. Crea en la carpeta raíz de la unidad A: una carpeta denominada TECINFO
 
+`cd \`
 
-3. Crea dentro de TECINFO el siguiente archivo de texto y llámalo HARD.TXT
+`mkdir TECINFO`
+
+2. Crea dentro de TECINFO el siguiente archivo de texto y llámalo HARD.TXT
 
 *“El HARDWARE está constituido por los elementos físicos del ordenador.
 Consta esencialmente de componentes electrónicos que proporcionan el
 soporte necesario para la interpretación y ejecución de las operaciones
 elementales que realiza el ordenador”*
+
+![crear archivo hard](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/crear%20archivo%20hard.png)
 
 3. Crea dentro de TECINFO el siguiente archivo de texto y llámalo SOFT.TXT
 
@@ -241,21 +246,39 @@ ordenador realice las funciones que se le encomiendan. Está formado por
 los programas, es decir, por un conjunto ordenado de instrucciones,
 comprensibles por la máquina, que permiten desarrollar tareas concretas”*
 
+![crear archivo soft](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/crear%20archivo%20SOFT.png)
+
 4. Mueve el contenido de TECINFO a la carpeta APLI del disquete A utilizado para realizar los
 ejercicios anteriores
+
+`move HARD.txt ..\APLI`
+
+`move SOFT.txt ..\APLI`
 
 5. Crea un nuevo archivo formado por la unión de HARD.TXT y SOFT.TXT, sin volver a escribir
 el texto, y guárdalo en la carpeta AGENDA con el nombre ORDER.TXT
 
+`type HARD.txt SOFT.txt > ..VARIOS\AGENDA\ORDER.txt`
+
 6. Elimina la carpeta TECINFO
+
+`rd /S TECINFO`
 
 7. Copia a la vez los archivos HARD.TXT y SOFT.TXT en la carpeta VARIOS
 
+`copy HARD.txt SOFT.txt ..\..\VARIOS`
+
 8. Cambia la extensión de los archivos contenidos en AGENDA por .TYP
+
+`rename FICHERO.txt FICHERO.TYP`
+
 9. Cambia la primera letra del nombre de todos los archivos del directorio APLI que empiecen
 por la letra C y tengan extensión DOC de forma que empiecen con la letra S
+
+`copy `
+
 10. Copia los archivos contenidos en la carpeta APLI que tengan extensión DOC en la carpeta
 AGENDA
 
 ``
-``
+
