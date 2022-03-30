@@ -1,6 +1,8 @@
 # Practica2MS-DOS
 1. Crea la siguiente estructura de carpetas:
 
+![estructura](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/ejemplo.png)
+
 `md APLI PROG VARIOS`
 
 `md WORD ACCESS EXCEL`
@@ -10,6 +12,9 @@
 `md TABLAS INFO`
 
 `md BASIC PASCAL FORTRN`
+
+![estructura D](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/tree%20esquema%20principal.png)
+
 
 2. Sitúate en la carpeta TABLAS
 
