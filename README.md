@@ -1,4 +1,7 @@
 # Practica2MS-DOS
+
+## Ejercicio 1
+
 1. Crea la siguiente estructura de carpetas:
 
 ![estructura](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/ejemplo.png)
@@ -28,11 +31,15 @@
 
 `dir PROG`
 
+![contenido PROG](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/mostrar%20contenido%20PROG.png)
+
 5. Borra la carpeta PASCAL
 
 `rd PROG\PASCAL`
 
 6. Sitúate en la carpeta VARIOS y desde allí crea una nueva carpeta dentro de WORD llamado PRACT
+
+`cd VARIOS`
 
 `md APLI\WORD\PRACT`
 
@@ -42,11 +49,15 @@
 
 `dir..\..\EXCEL`
 
+![contenido EXCEL](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/contenido%20excel.png)
+
 8. Desde TABLAS muestra el listado de archivos y carpetas de la carpeta raíz 
 
 `cd APLI\EXCEL\TABLAS`
 
 `dir \`
+
+![contenido raiz](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/contenido%20carpeta%20raiz.png)
 
 9.Sitúate en la carpeta APLI y desde allí crea una subcarpeta llamada AGENDA dentro de VARIOS
 
@@ -70,13 +81,21 @@
 
 `dir ..`
 
+![contenido WORD](https://github.com/MelissaRodriguezHernandez/Practica2MS-DOS/blob/main/contenido%20word.png)
+
+---
+
+## Ejercico 2
+
 1. Utilizando el editor de textos de MS-DOS, crea un archivo de texto denominado EJER.TXT,
 con el siguiente contenido, y almacénalo dentro de la carpeta TEXTOS (dentro de la estructura del ejercicio anterior):
 
-“La información dentro de los discos se almacena en forma de archivos. Un archivo
+*“La información dentro de los discos se almacena en forma de archivos. Un archivo
 o fichero es un conjunto de datos que MS-DOS almacena en un disco y cuyo
 control interno es realizado por el sistema operativo, aunque desde el punto de
-vista lógico el control es del usuario”
+vista lógico el control es del usuario”*
+
+
  
 `cd APLI\WORD\TEXTOS`
 
